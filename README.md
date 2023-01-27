@@ -1,7 +1,7 @@
 # Challenge-6-Quiz-Game
 Multiple choice coding quiz
 
-![Screenshot of quiz game](assets/challenge-6)
+![Screenshot of quiz game](assets/challenge-6.PNG)
 
 ## Description:
 The aim of this project was to create a multiple-choice coding quiz
