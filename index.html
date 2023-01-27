@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="start" style = "display : non;">
+          <span id="start-btn"> Start Quiz!</span>
+      </div>
+      <div id="container1" style = "display : none;">
+          <div class="quiz-box">
+              <div id="quiz">
+                <h1> Quiz Game</h1>
+                <div class="quiz-header">
+                  <p id="counter">100</p>
+                </div>
+                <p id="question">What is your name?</p>
+                <div class="buttons">
+                  <button class="btn" id="btn0>" onclick="checkAnswer()">
+                    A. <span id="choice0"></span> 
+                  </button>
+                  <button class="btn" id="btn1>" onclick="checkAnswer()">
+                    B. <span id="choice1"></span> 
+                  </button>
+                  <button class="btn" id="btn2>" onclick="checkAnswer()">
+                    C. <span id="choice2"></span> 
+                  </button>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div id="score" style = "display : none;">
+        <p id="number"></p>
+      </div>
+    </div>
+    <script type="text/javascript" src="./assets/script.js"></script>
+  </body>
+</html>

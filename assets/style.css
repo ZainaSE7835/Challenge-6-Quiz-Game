@@ -1,0 +1,138 @@
+#start {
+    max-width: 500px;
+    margin:0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: rgb(173, 202, 173) ;
+    border: solid black
+}
+
+#start #start-btn {
+    text-align: center;
+    background-color: rgb(185, 202, 185);
+    width:40%;
+    font-size: 1.8rem;
+    color: rgb(250, 249, 249);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 7px 0;
+    padding: 1rem;
+    outline: none;
+}
+
+#start #start-btn:hover {
+    background-color: rgb(214, 179, 214);
+}
+
+#start #start-btn:active {
+    background-color: rgb(155, 101, 155);
+}
+
+#container1 {
+    max-width: 900px;
+    margin:0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+.quiz-box {
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(201, 160, 201) ;
+    padding: 1rem 5rem 5rem 5rem;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.quiz-box h1 {
+    background-color: rgb(173, 202, 173);
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 3px; 
+}
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.quiz-header #counter {
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: rgb(173, 202, 173);
+    padding:5px;
+    margin:1px;
+    color:white;
+    border-radius:3px;
+}
+
+#question {
+    font-size: 1.8rem;
+    font-weight:600;
+    color:white;
+    border: 1px solid black;
+    border-width: 1px 0;
+    padding:5px 0;
+}
+
+.buttons {
+    margin: 1.5rem 0 4rem 0;
+}
+
+.btn {
+    text-align: left;
+    background-color: rgb(185, 202, 185);
+    width:100%;
+    font-size: 1.8rem;
+    color: rgb(250, 249, 249);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 7px 0;
+    padding: 1rem;
+    outline: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(214, 179, 214);
+    color:white;
+    
+}
+
+.btn:active {
+    background-color: rgb(155, 101, 155);
+}
+
+#score {
+    max-width: 500px;
+    margin:0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: rgb(173, 202, 173) ;
+    border: solid black;
+}
+
+#score #number {
+    text-align: center;
+    background-color: rgb(185, 202, 185);
+    width:40%;
+    font-size: 1.8rem;
+    color: rgb(250, 249, 249);
+    margin: 50px 0px 0px 0px;
+    padding: 10rem;
+}
