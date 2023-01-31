@@ -1,6 +1,8 @@
 # Challenge-6-Quiz-Game
 Multiple choice coding quiz
 
+https://zainase7835.github.io/Challenge-6-Quiz-Game/
+
 ![Screenshot of quiz game](assets/challenge-6.PNG)
 
 ## Description:
