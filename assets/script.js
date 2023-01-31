@@ -1,4 +1,4 @@
-//Selecte All Elements//
+//Selecte all target HTML elements//
 const start = document.getElementById("start");
 const quiz = document.getElementById("container1");
 const counter = document.getElementById("counter");
@@ -10,7 +10,7 @@ const result = document.getElementById("score");
 const button = document.querySelector("btn");
 const number = document.getElementById("number");
 
-//Create the questions//
+//Create an array of questions//
 let questions = [
     {
         question:"Which of the following is not a valid HTML tag?",
@@ -65,7 +65,7 @@ function renderQuestion(){
 
 start.addEventListener("click",startQuiz);
 
-// start quiz
+// start quiz and hide start//
 function startQuiz(){
     start.style.display = "none";
     renderQuestion();
@@ -93,13 +93,12 @@ function renderCounter(){
     }
 }
 
-// check answer
+// check if the answer is correct//
 function checkAnswer(answer){
+//if answer is correct add 1 to the score//
     if( answer == questions[runningQuestion].correct){
         score++
-    } else {
-
-    }
+    } else {}
 
     count = 0;
     if(runningQuestion < lastQuestion){
@@ -111,8 +110,9 @@ function checkAnswer(answer){
     }
 }
 
-// score render
+// score render - need to store the scores in localStorage and display them with user initials//
 function scoreRender(){
+    //hide quiz and display results//
     quiz.style.display = "none";
     result.style.display = "block";
     const scorePerCent = Math.round(100 * score/questions.length);
