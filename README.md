@@ -14,7 +14,7 @@ The aim of this project was to create a multiple-choice coding quiz
 - Adding event listeners
 
 ## Usage:
-click on the start quiz button to start the quiz. 
+Click on the start quiz button to start the multiple choice quiz. 
 
 ## Installation:
 N/A
